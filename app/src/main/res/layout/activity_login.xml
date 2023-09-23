@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+
+
+        android:layout_marginTop="50dp"
+        android:background="@drawable/cm">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Tell us little bit about yourself"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Nick Name"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/baseline_call_24"
+        android:drawablePadding="10dp"
+        android:hint="Mobile Number"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/rectangle"
+
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="10dp"
+        android:hint="Email(optional)"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/baseline_location_on_24"
+        android:drawablePadding="10dp"
+        android:hint="Select Country"
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/rectangle"
+
+        android:text="LOGIN"
+        android:textColor="#E4DEDE"
+        app:rippleColor="#E91E63" />
+
+    <TextView
+        android:id="@+id/lasttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Or continue with"
+        android:textColor="#090909"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
